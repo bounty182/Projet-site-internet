@@ -1,0 +1,10 @@
+/* exemple de bordures complexes */
+
+h1 {
+    border-bottom: red 3px solid;
+    border-left: royalblue 3px solid;
+    border-top: slateblue 3px solid;
+    border-right: yellow 3px solid;
+    border-radius: 70px 30px 70px 30px;
+} 
+    /* retirer 2 des 4 valeurs donnera un résultat en forme d'elipse */
