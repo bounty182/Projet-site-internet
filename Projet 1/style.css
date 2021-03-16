@@ -96,3 +96,6 @@ table {
     border-collapse: collapse;
 }
 
+:required {                             /* permet de colorer la bordure d'un champ requis a la validation d'un formulaire */
+        border-color: crimson;
+}

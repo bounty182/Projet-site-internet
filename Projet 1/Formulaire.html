@@ -6,16 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apprentissage des formulaires</title>
+    <link href="Cssformulaire.css" rel="stylesheet">
     </head>
     
     <body>
                 <h1>FORMULAIRE D'INSCRIPTION</h1>
-                <form method="post" action="register.php">
+            <form method="post" action="register.php">
                 <h2>Veuillez renseigner ces informations :</h2>  <!-- La zone de saisie peut etre mono ou multilignes-->
-                <p><input type="text" name="pseudo" id="pseudo" maxlength="12" placeholder="Pseudo" size="9px" value="pseudo"></p>
-                <p><input type="password" name="mdp" id="password" maxlength='12' placeholder="Password" size="9px" value="password"></p>
+                <p><input type="text" name="pseudo" id="pseudo" maxlength="12" placeholder="Pseudo" size="9px" autofocus></p> <!-- autofocus pour indiquer le premier tab auto-->
+                <p><input type="password" name="mdp" id="password" maxlength='12' placeholder="Password" size="9px"></p> <!-- value="..." => pré-rempli le champ-->
                 <p><textarea name="Description" id="Description" rows="5" cols="40" placeholder="Présentez vous ici"></textarea></p>
-                <p><input type="email" name="mail" id="mail" placeholder="Votre Email"></p>
+                <p><input type="email" name="mail" id="mail" placeholder="Votre Email" required></p>
                 <p><input type="url" name="GitHUB" id="GitHUB" placeholder="Votre URL GitHUB"></p>
                 <p><input type="tel" name="phone" id="phone" placeholder="Numero de telephone"></p>
                 <p><input type="number" name="qte" id="qte" placeholder="Quantité"></p>
@@ -36,7 +37,33 @@
                         <input type="radio" name="situation" value="single" id="single">
                         <label for="single">Célibataire</label> <br>
                         <input type="radio" name="situation" value="divorced" id="divorced">
-                        <label for="divoerced">Divorcé</label>
-                </form>
+                        <label for="divorced">Divorcé</label>
+                <p>
+                    <label for="Pays">La marque de votre voiture :</label></br>
+                    <select name="Pays" id="pays">
+                        <optgroup label="Allemandes">
+                    <option value="VW">VW</option>
+                    <option value="Audi">Audi</option>
+                    <option value="Opel">Opel</option>
+                        </optgroup>
+                        <optgroup label="Francaises">
+                    <option value="Renault">Renault</option>
+                    <option value="Peugeot">Peugeot</option>
+                        </optgroup>
+                    </select>
+                </p>
+                    <fieldset>                              <!-- Formulaire type pole emploi, impots.gouv etc-->
+                        <legend> Vos coordonnées </legend>  
+                        <label for="nom"> Nom : </label>
+                        <input type="text" name="nom" id="nom">
+                        <label for="prenom"> Prénom : </label>
+                        <input type="text" name="prenom" id="prenom">
+                        <label for="email"> Email : </label>
+                        <input type="email" name="email" id="email" required>
+                    </fieldset>
+                        <input type="submit" value="S'inscrire" class="favorite styled">
+                        <input type="reset" value="Effacer le formulaire" class="favorite styled"> <!-- type "image" "reset" "button"-->
+                        <button class="favorite styled" type="button">Ajouter aux favoris</button>
+            </form>
     </body>
 </html>
