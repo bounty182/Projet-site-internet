@@ -87,6 +87,7 @@ section > div{
 .Compétences{
     text-align: center;
 }
+
 /*SECTION EXP ET FORMATION*/
 
 .xp-pro{
@@ -119,5 +120,6 @@ h4{
     flex-flow: column wrap;
     align-items: center;
     margin-bottom: 20px;
+    text-align: center;
 }
 
