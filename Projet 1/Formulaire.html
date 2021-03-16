@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+    
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apprentissage des formulaires</title>
+    </head>
+    
+    <body>
+                <p>FORMULAIRE D'INSCRIPTION</p>
+                <form method="post" action="register.php">
+                <p>Veuillez renseigner ces informations :</p>  <!-- La zone de saisie peut etre mono ou multilignes-->
+                <p><input type="text" name="pseudo" id="pseudo" maxlength="12" placeholder="Pseudo" size="9px" value="pseudo"></p>
+                <p><input type="password" name="mdp" id="password" maxlength='12' placeholder="Password" size="9px" value="password"></p>
+                <p><textarea name="Description" id="Description" rows="5" cols="40" placeholder="Présentez vous ici"></textarea></p>
+                <p><input type="email" name="mail" id="mail" placeholder="Votre Email"></p>
+                <p><input type="url" name="GitHUB" id="GitHUB" placeholder="Votre URL GitHUB"></p>
+                <p><input type="tel" name="phone" id="phone" placeholder="Numero de telephone"></p>
+                <p><input type="number" name="qte" id="qte" placeholder="Quantité"></p>
+                <p><input type="range" name="qte" id="qte"></p>
+                <p><input type="color" name="color" id="color"></p>
+                </form>
+    </body>
+</html>
