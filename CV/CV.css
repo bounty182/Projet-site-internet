@@ -42,7 +42,7 @@ section > div{
 
 .Photo{
     text-align: center;
-    border-radius: 100px;
+    border-radius: 400px;
 }
 
 .pres{
@@ -62,13 +62,17 @@ section > div{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    text-align: center;
 }
+
 .contact-flex p:first-child{
-    flex: 0 0 40%;
+        flex: 0 0 40%;
+    }
+
+    .contact-flex p:last-child{
+        flex: 0 0 60%;   
 }
-.contact-flex p:last-child{
-    flex: 0 0 60%;
-}
+
 .social{
     display: flex;
     justify-content: space-around;
@@ -80,6 +84,9 @@ section > div{
     text-align: center;
   }
 
+.Compétences{
+    text-align: center;
+}
 /*SECTION EXP ET FORMATION*/
 
 .xp-pro{
