@@ -41,7 +41,9 @@ section > div{
 .Photo{
     text-align: center;
     border-radius: 400px;
+    scale: 100%;
 }
+
 
 .pres{
     border-bottom: 2px dashed #ccc;
@@ -82,9 +84,46 @@ section > div{
     text-align: center;
   }
 
+.twitter:hover{
+    -moz-transform: rotate(360deg) scale(1.5);
+    -webkit-transform: rotate(360deg) scale(1.5);
+    -o-transform: rotate(360deg) scale(1.5);
+    -ms-transform: rotate(360deg) scale(1.5);
+    transform: rotate(360deg) scale(1.3);
+    opacity: 1;
+    transition-duration: 1s
+  }
+
+.facebook:hover{
+    -moz-transform: rotate(360deg) scale(1.5);
+    -webkit-transform: rotate(360deg) scale(1.5);
+    -o-transform: rotate(360deg) scale(1.5);
+    -ms-transform: rotate(360deg) scale(1.5);
+    transform: rotate(360deg) scale(1.3);
+    opacity: 1;
+    transition-duration: 1s
+  }
+
+  
+.linkedin {
+    transform: scale(0.9)
+    transform: rotate(180deg)
+  }
+  
+.linkedin:hover{
+    -moz-transform: rotate(360deg) scale(1.1);
+    -webkit-transform: rotate(360deg) scale(1.1);
+    -o-transform: rotate(360deg) scale(1.1);
+    -ms-transform: rotate(360deg) scale(1.1);
+    transform: rotate(360deg) scale(1.1);
+    opacity: 1;
+    transition-duration: 1s
+  }
+
 .Compétences{
     text-align: center;
 }
+
 
 /*SECTION EXP ET FORMATION*/
 
@@ -121,6 +160,39 @@ h4{
     text-align: center;    
 }
 
+.hobby1:hover {
+    transform: scale(1.1);
+    transition-duration: 1s
+}
+
+.hobby2:hover {
+    transform: scale(1.1);
+    transition-duration: 1s
+}
+
+.hobby3:hover {
+    transform: scale(1.1);
+    transition-duration: 1s
+}
+
+.hobby4:hover {
+    transform: scale(1.1);
+    transition-duration: 1s
+}
+
+.hobby5:hover {
+    transform: scale(1.1);
+    transition-duration: 1s
+}
+
+.hobby6:hover {
+    transform: scale(1.1);
+    transition-duration: 1s
+}
+
+
+
+
 /*SECTION Contact*/
 
 .styled {
@@ -140,3 +212,6 @@ h4{
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
 }
+
+
+/* https://img.over-blog-kiwi.com/3/21/24/91/20190910/ob_0513bb_8f651a6ec72dd4528e1f6a948b323558.jpg URL IMAGE BATMAN A MONTRER AU SURVOL DE LA PDP */
