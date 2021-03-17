@@ -4,20 +4,45 @@
     font-family: 'gotham_nightsbold_italic';
     src: url('gotham_nights_bold_italic-webfont.woff2') format('woff2'),
          url('gotham_nights_bold_italic-webfont.woff') format('woff');
-    font-weight: bolder;
-    font-style: bolder;
+    font-weight: normal;
+    font-style: normal;
 
 }
 
+@font-face {
+    font-family: 'gotham_nightsbold';
+    src: url('gotham_nights_bold-webfont.woff2') format('woff2'),
+         url('gotham_nights_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_nightsitalic';
+    src: url('gotham_nights_italic-webfont.woff2') format('woff2'),
+         url('gotham_nights_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_nightsregular';
+    src: url('gotham_nights-webfont.woff2') format('woff2'),
+         url('gotham_nights-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /*STYLES GENERAUX*/
-*{
-    font-family: 'gotham_nightsbold_italic';
-    src: url('gotham_nights_bold_italic-webfont.woff2') format('woff2'),
-         url('gotham_nights_bold_italic-webfont.woff') format('woff');
-    font-weight: bolder;
-    font-style: bolder;
-}
 
 body{
     background: #ededed;
@@ -157,13 +182,4 @@ h4{
                                       rgba(0, 0, 0, 0));
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
-}
-
-.styled:hover {
-    background-color: rgb(39, 35, 35);
-}
-
-.styled:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-                inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
