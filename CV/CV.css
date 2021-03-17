@@ -33,7 +33,6 @@ section{
 
 }
 
-
 section > div{
     width: 90%;
 }
@@ -44,10 +43,9 @@ section > div{
     scale: 100%;
 }
 
-
 .pres{
     border-bottom: 2px dashed #ccc;
-}
+} 
 .prez a{
     display: block;
     text-align: center;
