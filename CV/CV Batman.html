@@ -16,7 +16,8 @@
             <h2>Qui suis-je ?</h2>
     </div>
     <div class="pres">
-        <p>Diplômé d'un <em>doctorat en nanotechnologies</em> à l'université de Gotham City , et CoVID aidant, je me tourne vers le <em>developpement informatique...</em></p>
+        <p>Diplômé d'un <em>doctorat en nanotechnologies</em> à l'université de Gotham City , j'assure la bonne gestion de mon entreprise et de mon patrimoine.
+        <p></p>CoVID aidant, je me tourne vers le <em>developpement informatique...</em>afin d'élargir ma clientèle a travers la ville de Gotham...</p>
         <!-- Essayer de rajouter un bouton pour telecharger le CV-->
     </div> 
     <div class="Contact">
@@ -72,7 +73,7 @@
             <a href="logo-lycée"><img src="lycée-gotham.jpg" height="125" width="175"/></a>
             <div class="xp-info">
             <h3>Bac S</h3>
-            <h4>Septembre 2005 - Juin 208</h4>
+            <h4>Septembre 2005 - Juin 2008</h4>
             <p>Diplôme obtenu moyennant finances.</p>
             </div>
     </div>
@@ -103,7 +104,7 @@
             <figcaption><em><strong>Dîners mondains</strong></em></figcaption>
         </figure>
         <figure class="hobby">
-            <img src="soirées-costumées.jpeg.crdownload" height="150" width="200">
+            <img src="soirées-costumées.jpeg" height="150" width="200">
             <figcaption><em><strong>Soirées costumées</strong></em></figcaption>
         </figure>
         <figure class="hobby">
@@ -123,13 +124,14 @@
 <section>
     <div class="Contactez-moi">
         <h2>Contactez moi !</h2>
-        <p><input type="text" name="nom" id="nom" maxlength="20" placeholder="Nom" size="9px">
-            <input type="text" name="prénom" id="prénom" maxlength="20" placeholder="Prénom" size="9px">
-            <input type="email" name="mail" id="mail" placeholder="Votre Email" required>
-            <input type="tel" name="phone" id="phone" placeholder="Numero de telephone">
-        </p>
-        <p><textarea name="Ecrivez-moi..." id="Ecrivez-moi..." rows="5" cols="40" placeholder="Ecrivez-moi..."></textarea></p>
+        <form>
+        <p><input type="text" name="nom" id="nom" maxlength="20" placeholder="Nom" size="9px" pattern="[a-zA-Z]" tittle="Entrez un prénom valide svp.">
+            <input type="text" name="prénom" id="prénom" maxlength="20" placeholder="Prénom" size="9px" pattern="[a-zA-Z]" tittle="Entrez un prénom valide svp.">
+            <input type="email" name="mail" id="mail" placeholder="Votre Email" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" tittle="Entrez un email valide svp." required>
+            <input type="tel" name="phone" id="phone" placeholder="Numero de telephone" pattern="[0-9]" maxlength="10" required></p>
+        <p><textarea name="Ecrivez-moi..." id="Ecrivez-moi..." rows="5" cols="40" placeholder="Ecrivez-moi..." required></textarea></p>
         <p><input type="submit" value="Me contacter" class="favorite styled"></p>
+        </form>
     </div>
 </section>
     
