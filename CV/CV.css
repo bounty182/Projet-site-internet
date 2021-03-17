@@ -1,0 +1,215 @@
+/*STYLES GENERAUX*/
+
+body{
+    background: #ededed;
+}
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    border-style: solid;
+}
+
+/*SECTIONS*/
+section{
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: #fff;
+
+}
+
+section > div{
+    width: 90%;
+}
+
+.Photo{
+    text-align: center;
+    border-radius: 400px;
+    scale: 100%;
+}
+
+.pres{
+    border-bottom: 2px dashed #ccc;
+} 
+.prez a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto 30px auto;
+    color: #fff;
+    background-color: #EA0;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 5px;
+}
+.contact-flex{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-flex p:first-child{
+        flex: 0 0 40%;
+    }
+
+    .contact-flex p:last-child{
+        flex: 0 0 60%;   
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto 0px auto;
+}
+.Reseaux{
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+.twitter:hover{
+    -moz-transform: rotate(360deg) scale(1.5);
+    -webkit-transform: rotate(360deg) scale(1.5);
+    -o-transform: rotate(360deg) scale(1.5);
+    -ms-transform: rotate(360deg) scale(1.5);
+    transform: rotate(360deg) scale(1.3);
+    opacity: 1;
+    transition-duration: 1s
+  }
+
+.facebook:hover{
+    -moz-transform: rotate(360deg) scale(1.5);
+    -webkit-transform: rotate(360deg) scale(1.5);
+    -o-transform: rotate(360deg) scale(1.5);
+    -ms-transform: rotate(360deg) scale(1.5);
+    transform: rotate(360deg) scale(1.3);
+    opacity: 1;
+    transition-duration: 1s
+  }
+
+  
+.linkedin {
+    transform: scale(0.9)
+    transform: rotate(180deg)
+  }
+  
+.linkedin:hover{
+    -moz-transform: rotate(360deg) scale(1.1);
+    -webkit-transform: rotate(360deg) scale(1.1);
+    -o-transform: rotate(360deg) scale(1.1);
+    -ms-transform: rotate(360deg) scale(1.1);
+    transform: rotate(360deg) scale(1.1);
+    opacity: 1;
+    transition-duration: 1s
+  }
+
+.Compétences{
+    text-align: center;
+}
+
+
+/*SECTION EXP ET FORMATION*/
+
+.xp-pro{
+    text-align: center;
+}
+
+.formation{
+    text-align: center;
+}
+
+h3{
+    font-size:  1.2em;
+    text-decoration: underline;
+    text-align: center;
+}
+h4{
+    font-size:  1em;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.pres{
+    text-align: center;
+}
+
+/*SECTION INTERETS*/
+.hobby{
+    flex: 0 1 50%;
+    display:inline-block;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;    
+}
+
+.hobby1:hover {
+    transform: scale(1.1);
+    transition-duration: 1s
+}
+
+.hobby2:hover {
+    transform: scale(1.1);
+    transition-duration: 1s
+}
+
+.hobby3:hover {
+    transform: scale(1.1);
+    transition-duration: 1s
+}
+
+.hobby4:hover {
+    transform: scale(1.1);
+    transition-duration: 1s
+}
+
+.hobby5:hover {
+    transform: scale(1.1);
+    transition-duration: 1s
+}
+
+.hobby6:hover {
+    transform: scale(1.1);
+    transition-duration: 1s
+}
+
+
+
+
+/*SECTION Contact*/
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(27, 21, 21);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+
+/* https://img.over-blog-kiwi.com/3/21/24/91/20190910/ob_0513bb_8f651a6ec72dd4528e1f6a948b323558.jpg URL IMAGE BATMAN A MONTRER AU SURVOL DE LA PDP */

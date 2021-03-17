@@ -96,3 +96,14 @@ table {
     border-collapse: collapse;
 }
 
+:required {                             /* permet de colorer la bordure d'un champ requis a la validation d'un formulaire */
+        border-color: crimson;
+}
+
+/* DEGRADES */
+
+#degrad {
+    background-image: linear-gradient(to left bottom, blue 30%, yellow 40%); /* "to righ"t "to left" ... On peut cumuler + de 2 couleurs, les % indique les endroits ou le dégradé s'opere(facultatif). */
+    background-image: radial-gradient(circle at center, yellow, blue);
+    background-image: repeating-linear-gradient(yellow, blue 30px); /* Dégradé repetitif */
+}
