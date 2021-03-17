@@ -1,8 +1,24 @@
+/*STYLES POLICE*/
+
+@font-face {
+    font-family: 'gotham_nightsbold_italic';
+    src: url('gotham_nights_bold_italic-webfont.woff2') format('woff2'),
+         url('gotham_nights_bold_italic-webfont.woff') format('woff');
+    font-weight: bolder;
+    font-style: bolder;
+
+}
+
+
 /*STYLES GENERAUX*/
 *{
-    font-family: Avenir, sans-serif;
-    box-sizing: border-box;
+    font-family: 'gotham_nightsbold_italic';
+    src: url('gotham_nights_bold_italic-webfont.woff2') format('woff2'),
+         url('gotham_nights_bold_italic-webfont.woff') format('woff');
+    font-weight: bolder;
+    font-style: bolder;
 }
+
 body{
     background: #ededed;
 }
