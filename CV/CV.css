@@ -67,7 +67,7 @@ section > div{
         flex: 0 0 40%;
     }
 
-    .contact-flex p:last-child{
+.contact-flex p:last-child{
         flex: 0 0 60%;   
 }
 
