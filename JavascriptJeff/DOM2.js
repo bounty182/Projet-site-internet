@@ -204,9 +204,42 @@
 // -Trouver un moyen de surveiller ce que tape l'utilisateur au clavier 
 // -Ce que l'utilisateur tape on le met dans le innerHTML de rendu
 
-let monTxt = document.querySelector("textarea");
-let rendu = document.querySelector("div");
 
-addEventListener("keypress", function(){
-    rendu.innerHTML = monTxt.value;
-});
+// EXO DOM Editeur de texte + local Storage 
+// Aller se renseigner sur les fonction getItem et setItem du Local Storage
+
+// On va stocker ce que tape l'utilisateur dans le localStorage sous le nom "monSuperTexte"
+// Il faudra aussi pré-remplir le textarea avec ce que l'on récupère du localStorage
+
+
+// JS : 
+
+// - à la valeur de monTxt on assigne monSuperTexte que l'on récupère depuis le localStorage avec la fonction getItem
+
+
+// -Ensuite avec un if on vérifie si la valeur de monTxt est bien définie 
+// if(monTxt.value){}
+
+
+// - Dans le if, on assigne au innerHtml de rendu, monSuperTexte qu'on récupère depuis le localStorage via getItem()
+
+// -Après le if on a tjrs notre addEventListener sur monTxt, dans la fonction du addEventListener : 
+// - On enregistre ce que tape l'utilisateur sous le nom monSuperTexte dans le localStorage via la fonction setItem(), 
+// - Ensuite on a tjrs rendu.innerHTML = marked(monTxt.value)
+
+
+// let monTxt = document.querySelector("textarea");
+// let rendu = document.querySelector("div");
+// monTxt.value = localStorage.getItem("monSuperTexte");
+
+// if(monTxt.value){
+//     rendu.innerHTML = localStorage.getItem("monSuperTexte");
+// }
+// monTxt.addEventListener("keyup", function(){
+//     localStorage.setItem("monSuperTexte",monTxt.value);
+//     rendu.innerHTML = marked(monTxt.value);
+// });
+
+
+
+
