@@ -228,9 +228,9 @@
 
 // Dans cette fonction il faut trouver un moyen de désactiver le btn si la longueur de la valeur de txt dépasse 5
 
-const txt = document.querySelector("#placeholder");
-const btn = document.querySelector("button");
+// const txt = document.querySelector("#placeholder");
+// const btn = document.querySelector("button");
 
-txt.addEventListener("keyup", function() {
-    btn.disabled= txt.value.length >= 5 ? true : false;
-    });
+// txt.addEventListener("keyup", function() {
+//     btn.disabled = txt.value.length >= 5 ? true : false;
+//     });
