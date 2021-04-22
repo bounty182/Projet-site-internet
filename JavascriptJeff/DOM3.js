@@ -53,23 +53,6 @@
 // Juste un textarea
 
 
-leTexte = document.querySelector("textarea");
-txt = [];
-voyelles = ["a","e","i","o","u","y"];
-
-leTexte.addEventListener("keypress",function(unEvent){
-    uneTouche = unEvent.key;
-    console.log(uneTouche);
-    if(!voyelles.includes(uneTouche)){
-        txt.push(uneTouche);
-    }
-    console.log(txt.join("-"));
-});
-
-
-
-
-
 // JS : 
 // -1 variable leTexte va récupérer notre textarea
 // -1 variable txt qui est un tableau vide
@@ -82,3 +65,15 @@ leTexte.addEventListener("keypress",function(unEvent){
 
 // -Avec un if on va vérifier si le tableau voyelles INCLUT  uneTouche,
 //  alors on rajoute uneTouche dans le tableau txt (rappelez vous comment on insère des truc dans un tableau)
+
+// let leTexte = document.querySelector("textarea");
+// let txt = [];
+// let voyelles = ["a","e","i","o","u","y"];
+
+// leTexte.addEventListener("keypress",function(unEvent){
+//    let uneTouche = unEvent.key;
+//     if(!voyelles.includes(uneTouche)){
+//         txt.push(uneTouche);
+//     }
+//     console.log(txt.join("-"));
+// });
